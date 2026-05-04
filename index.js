@@ -4,6 +4,7 @@ function add(value){
     if(grrr){
         display.value = "";
         grrr = false;
+        moi = false;
     }
     display.value += value;
 }
