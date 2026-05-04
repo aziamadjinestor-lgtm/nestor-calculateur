@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="calculator">
+        <h1>Calculator</h1>
+        <div class="scren-bar">
+            <input type="text" disabled id="screen">
+        </div>
+        <div class="boutton-bar">
+            <button onclick="clearScreen(), play()" class="autre-btn">C</button>
+            <button onclick="supprimer(), play()" class="autre-btn">supp</button>
+            <button onclick="opp('/'), play()" class="autre-btn">/</button>
+            <button onclick="opp('*'), play()" class="autre-btn">*</button>
+
+
+            <button onclick="add('7'), play()" class="autre-btn">7</button>
+            <button onclick="add('8'), play()" class="autre-btn">8</button>
+            <button onclick="add('9'), play()" class="autre-btn">9</button>
+            <button onclick="opp('+'), play()" class="autre-btn">+</button>
+            
+
+
+            <button onclick="add('4'), play()" class="autre-btn">4</button>
+            <button onclick="add('5'), play()" class="autre-btn">5</button>
+            <button onclick="add('6'), play()" class="autre-btn">6</button>
+            <button onclick="opp('-'), play()" class="autre-btn">-</button>
+            
+
+
+            <button onclick="add('1'), play()" class="autre-btn">1</button>
+            <button onclick="add('2'), play()" class="autre-btn">2</button>
+            <button onclick="add('3'), play()" class="autre-btn">3</button>
+            <button onclick="resultat(), play()" class="equal">=</button>
+            
+
+
+            <button onclick="add('0'), play()" class="zero">0</button>
+            <button onclick="add('.'), play()" class="autre-btn">.</button>
+            
+            
+        </div>
+    </section>
+</body>
+</html>
